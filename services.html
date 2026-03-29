@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CCTV &amp; Security Services - CamSecurity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+    <!-- Top Info Bar -->
+    <div class="top-bar d-none d-md-block">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="top-bar-left">
+                <span class="me-3"><i class="fa fa-envelope me-1"></i> camsecuritiessystem@gmail.com</span>
+                <span><i class="fa fa-phone me-1"></i> +91 7666635963, +91 9604768442</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="https://wa.me/9604768442" target="_blank" class="me-2"><i class="fab fa-whatsapp me-1"></i></a>
+                <a href="https://www.linkedin.com/company/camsecurity" target="_blank" class="me-2"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/cam_seacurity_system.8442" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg site-navbar">
+            <div class="container">
+                <a class="navbar-brand site-brand" href="index.html">
+                    <i class="fa fa-camera brand-icon me-2"></i><span class="brand-highlight">Cam</span>Security
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item ms-lg-3">
+                            <a class="btn btn-site-cta" href="contact.html">
+                                <i class="fa fa-headset me-1"></i> Free Consultation
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-header-title">Our Security Services</h1>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="section-tag">What We Offer</span>
+                    <h2 class="section-title">Complete <span class="brand-highlight">Security Solutions</span></h2>
+                    <p class="section-subtitle">From basic CCTV to enterprise-grade IP surveillance we design, supply, install, and maintain it all.</p>
+                </div>
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card service-card-full" data-bs-toggle="modal" data-bs-target="#modal-cctv-service">
+                            <div class="service-icon"><i class="fa fa-camera"></i></div>
+                            <h5 class="service-title">CCTV Camera Installation</h5>
+                            <p class="service-text">Professional CCTV installation for homes, shops, offices, warehouses, and factories. Complete end-to-end service from cabling to configuration.</p>
+                            <ul class="service-features">
+                                <li><i class="fa fa-check"></i> Analog &amp; HD cameras</li>
+                                <li><i class="fa fa-check"></i> DVR setup &amp; programming</li>
+                                <li><i class="fa fa-check"></i> Night vision &amp; weatherproof options</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card service-card-full"
+                             data-bs-toggle="modal"
+                             data-bs-target="#modal-ip-service">
+                            <div class="service-icon"><i class="fa fa-network-wired"></i></div>
+                            <h5 class="service-title">IP Surveillance Systems</h5>
+                            <p class="service-text">Scalable IP-based camera networks with PoE switches, NVR recording, and high-resolution video ideal for large sites and enterprises.</p>
+                            <ul class="service-features">
+                                <li><i class="fa fa-check"></i> 2MP to 8MP IP cameras</li>
+                                <li><i class="fa fa-check"></i> PoE network infrastructure</li>
+                                <li><i class="fa fa-check"></i> Cloud &amp; local NVR storage</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card service-card-full"
+                             data-bs-toggle="modal"
+                             data-bs-target="#modal-vdp-service">
+                            <div class="service-icon"><i class="fa fa-door-open"></i></div>
+                            <h5 class="service-title">Video Door Phone</h5>
+                            <p class="service-text">See and speak to visitors before opening the door. Available in single and multi-unit configurations for apartments and offices.</p>
+                            <ul class="service-features">
+                                <li><i class="fa fa-check"></i> Color display units</li>
+                                <li><i class="fa fa-check"></i> Two-way audio/video</li>
+                                <li><i class="fa fa-check"></i> Electric lock integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card service-card-full"
+                             data-bs-toggle="modal"
+                             data-bs-target="#modal-access-service">
+                            <div class="service-icon"><i class="fa fa-fingerprint"></i></div>
+                            <h5 class="service-title">Access Control Systems</h5>
+                            <p class="service-text">Restrict entry to authorized personnel using fingerprint, RFID card, or PIN-based systems with audit logs and time-attendance features.</p>
+                            <ul class="service-features">
+                                <li><i class="fa fa-check"></i> Biometric &amp; RFID readers</li>
+                                <li><i class="fa fa-check"></i> Time &amp; attendance reports</li>
+                                <li><i class="fa fa-check"></i> Electric door lock setup</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card service-card-full"
+                             data-bs-toggle="modal"
+                             data-bs-target="#modal-amc-service">
+                            <div class="service-icon"><i class="fa fa-tools"></i></div>
+                            <h5 class="service-title">AMC &amp; Maintenance</h5>
+                            <p class="service-text">Keep your system running at peak performance with our Annual Maintenance Contracts covering regular servicing and priority breakdown support.</p>
+                            <ul class="service-features">
+                                <li><i class="fa fa-check"></i> Quarterly servicing visits</li>
+                                <li><i class="fa fa-check"></i> DVR/NVR health checks</li>
+                                <li><i class="fa fa-check"></i> Same-day priority response</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card service-card-full"
+                             data-bs-toggle="modal"
+                             data-bs-target="#modal-remote-service">
+                            <div class="service-icon"><i class="fa fa-mobile-alt"></i></div>
+                            <h5 class="service-title">Remote Monitoring</h5>
+                            <p class="service-text">Access live and recorded footage from your smartphone, tablet, or PC from anywhere in the world using secure mobile apps.</p>
+                            <ul class="service-features">
+                                <li><i class="fa fa-check"></i> iOS &amp; Android apps</li>
+                                <li><i class="fa fa-check"></i> Motion alert notifications</li>
+                                <li><i class="fa fa-check"></i> Multi-site management</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card service-card-full"
+                             data-bs-toggle="modal"
+                             data-bs-target="#modal-alarm-service">
+                            <div class="service-icon"><i class="fa fa-bell"></i></div>
+                            <h5 class="service-title">Alarm &amp; Intruder Detection</h5>
+                            <p class="service-text">Motion-triggered alarm systems with sirens, SMS alerts, and integration with your CCTV system to deter and record intruders.</p>
+                            <ul class="service-features">
+                                <li><i class="fa fa-check"></i> PIR motion sensors</li>
+                                <li><i class="fa fa-check"></i> SMS &amp; app alerts</li>
+                                <li><i class="fa fa-check"></i> CCTV integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card service-card-full"
+                             data-bs-toggle="modal"
+                             data-bs-target="#modal-parking-service">
+                            <div class="service-icon"><i class="fa fa-road"></i></div>
+                            <h5 class="service-title">Parking &amp; LPR Cameras</h5>
+                            <p class="service-text">License plate recognition cameras and parking area surveillance systems for residential societies, malls, and commercial complexes.</p>
+                            <ul class="service-features">
+                                <li><i class="fa fa-check"></i> License plate capture</li>
+                                <li><i class="fa fa-check"></i> Wide-angle parking view</li>
+                                <li><i class="fa fa-check"></i> IR night recording</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card service-card-full"
+                             data-bs-toggle="modal"
+                             data-bs-target="#modal-wireless-service">
+                            <div class="service-icon"><i class="fa fa-wifi"></i></div>
+                            <h5 class="service-title">Wireless IP Cameras</h5>
+                            <p class="service-text">Wire-free Wi-Fi cameras ideal for rented premises, temporary sites, or locations where cabling is not feasible, with easy self-install options.</p>
+                            <ul class="service-features">
+                                <li><i class="fa fa-check"></i> No drilling required</li>
+                                <li><i class="fa fa-check"></i> Battery &amp; solar options</li>
+                                <li><i class="fa fa-check"></i> App-based live view</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CCTV Service Modal -->
+        <div class="modal fade" id="modal-cctv-service" tabindex="-1">
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+
+                    <div class="modal-header prod-modal-header">
+                        <div>
+                            <h5 class="modal-title fw-bold">CCTV Camera Installation</h5>
+                            <p class="text-muted small mb-0">
+                                Complete CCTV solutions for homes, offices, shops, and industries.
+                            </p>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body p-4">
+                        <div class="row gy-4">
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Installation Services</h6>
+
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Site inspection & planning</li>
+                                        <li><i class="fa fa-check"></i> Camera positioning</li>
+                                        <li><i class="fa fa-check"></i> Cable wiring & setup</li>
+                                        <li><i class="fa fa-check"></i> DVR/NVR configuration</li>
+                                        <li><i class="fa fa-check"></i> Mobile app setup</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Key Features</h6>
+
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> HD & IP Cameras</li>
+                                        <li><i class="fa fa-check"></i> Night Vision Support</li>
+                                        <li><i class="fa fa-check"></i> Remote Monitoring</li>
+                                        <li><i class="fa fa-check"></i> Weatherproof Setup</li>
+                                        <li><i class="fa fa-check"></i> 1 Year Service Support</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/9604768442?text=I want CCTV Installation"
+                               class="btn btn-site-cta mt-3 w-100">
+                                <i class="fab fa-whatsapp me-1"></i> Get Quote
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-ip-service" tabindex="-1">
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+
+                    <div class="modal-header prod-modal-header">
+                        <div>
+                            <h5 class="modal-title fw-bold">IP Surveillance Systems</h5>
+                            <p class="text-muted small mb-0">
+                                Advanced IP-based camera systems for large-scale security and monitoring.
+                            </p>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body p-4">
+                        <div class="row gy-4">
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Our Services</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Network planning & setup</li>
+                                        <li><i class="fa fa-check"></i> PoE switch installation</li>
+                                        <li><i class="fa fa-check"></i> NVR configuration</li>
+                                        <li><i class="fa fa-check"></i> Remote cloud setup</li>
+                                        <li><i class="fa fa-check"></i> Enterprise solutions</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Key Features</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> 2MP to 8MP cameras</li>
+                                        <li><i class="fa fa-check"></i> High-resolution video</li>
+                                        <li><i class="fa fa-check"></i> Centralized monitoring</li>
+                                        <li><i class="fa fa-check"></i> Scalable architecture</li>
+                                        <li><i class="fa fa-check"></i> Cloud & local storage</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/9604768442?text=I want IP Surveillance System"
+                           class="btn btn-site-cta mt-3 w-100">
+                            <i class="fab fa-whatsapp me-1"></i> Get Quote
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-vdp-service" tabindex="-1">
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+
+                    <div class="modal-header prod-modal-header">
+                        <div>
+                            <h5 class="modal-title fw-bold">Video Door Phone</h5>
+                            <p class="text-muted small mb-0">
+                                Secure your entry with smart video door communication systems.
+                            </p>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body p-4">
+                        <div class="row gy-4">
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Our Services</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Installation & setup</li>
+                                        <li><i class="fa fa-check"></i> Multi-unit configuration</li>
+                                        <li><i class="fa fa-check"></i> Indoor monitor setup</li>
+                                        <li><i class="fa fa-check"></i> Mobile app integration</li>
+                                        <li><i class="fa fa-check"></i> Maintenance support</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Key Features</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Two-way audio/video</li>
+                                        <li><i class="fa fa-check"></i> Color display units</li>
+                                        <li><i class="fa fa-check"></i> Night vision camera</li>
+                                        <li><i class="fa fa-check"></i> Electric lock support</li>
+                                        <li><i class="fa fa-check"></i> Smartphone connectivity</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/9604768442?text=I want Video Door Phone"
+                           class="btn btn-site-cta mt-3 w-100">
+                            <i class="fab fa-whatsapp me-1"></i> Get Quote
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-access-service" tabindex="-1">
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+
+                    <div class="modal-header prod-modal-header">
+                        <div>
+                            <h5 class="modal-title fw-bold">Access Control Systems</h5>
+                            <p class="text-muted small mb-0">
+                                Secure and manage entry using biometric and RFID-based systems.
+                            </p>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body p-4">
+                        <div class="row gy-4">
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Our Services</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Biometric installation</li>
+                                        <li><i class="fa fa-check"></i> RFID card setup</li>
+                                        <li><i class="fa fa-check"></i> Door lock integration</li>
+                                        <li><i class="fa fa-check"></i> Attendance system setup</li>
+                                        <li><i class="fa fa-check"></i> Software configuration</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Key Features</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Fingerprint & RFID access</li>
+                                        <li><i class="fa fa-check"></i> User management system</li>
+                                        <li><i class="fa fa-check"></i> Attendance reports</li>
+                                        <li><i class="fa fa-check"></i> Secure entry logs</li>
+                                        <li><i class="fa fa-check"></i> Real-time monitoring</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/9604768442?text=I want Access Control System"
+                           class="btn btn-site-cta mt-3 w-100">
+                            <i class="fab fa-whatsapp me-1"></i> Get Quote
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-amc-service" tabindex="-1">
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+
+                    <div class="modal-header prod-modal-header">
+                        <div>
+                            <h5 class="modal-title fw-bold">AMC & Maintenance</h5>
+                            <p class="text-muted small mb-0">
+                                Keep your systems running smoothly with regular maintenance services.
+                            </p>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body p-4">
+                        <div class="row gy-4">
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Our Services</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Quarterly servicing</li>
+                                        <li><i class="fa fa-check"></i> System health check</li>
+                                        <li><i class="fa fa-check"></i> Fault diagnosis</li>
+                                        <li><i class="fa fa-check"></i> Repair & replacement</li>
+                                        <li><i class="fa fa-check"></i> Priority support</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Key Features</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Regular inspections</li>
+                                        <li><i class="fa fa-check"></i> Reduced downtime</li>
+                                        <li><i class="fa fa-check"></i> Cost-effective plans</li>
+                                        <li><i class="fa fa-check"></i> Expert technicians</li>
+                                        <li><i class="fa fa-check"></i> Same-day response</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/9604768442?text=I want AMC Service"
+                           class="btn btn-site-cta mt-3 w-100">
+                            <i class="fab fa-whatsapp me-1"></i> Get Quote
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-remote-service" tabindex="-1">
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+
+                    <div class="modal-header prod-modal-header">
+                        <div>
+                            <h5 class="modal-title fw-bold">Remote Monitoring</h5>
+                            <p class="text-muted small mb-0">
+                                Monitor your CCTV systems anytime, anywhere using mobile and web apps.
+                            </p>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body p-4">
+                        <div class="row gy-4">
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Our Services</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Mobile app setup</li>
+                                        <li><i class="fa fa-check"></i> Remote DVR/NVR access</li>
+                                        <li><i class="fa fa-check"></i> Cloud configuration</li>
+                                        <li><i class="fa fa-check"></i> Multi-device login setup</li>
+                                        <li><i class="fa fa-check"></i> User access control</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Key Features</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Live camera access</li>
+                                        <li><i class="fa fa-check"></i> Playback from anywhere</li>
+                                        <li><i class="fa fa-check"></i> Instant alert notifications</li>
+                                        <li><i class="fa fa-check"></i> Secure login system</li>
+                                        <li><i class="fa fa-check"></i> Multi-location monitoring</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/9604768442?text=I want Remote Monitoring Setup"
+                           class="btn btn-site-cta mt-3 w-100">
+                            <i class="fab fa-whatsapp me-1"></i> Get Quote
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-alarm-service" tabindex="-1">
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+
+                    <div class="modal-header prod-modal-header">
+                        <div>
+                            <h5 class="modal-title fw-bold">Alarm & Intruder Detection</h5>
+                            <p class="text-muted small mb-0">
+                                Protect your property with advanced intrusion detection and alarm systems.
+                            </p>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body p-4">
+                        <div class="row gy-4">
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Our Services</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Motion sensor installation</li>
+                                        <li><i class="fa fa-check"></i> Alarm system setup</li>
+                                        <li><i class="fa fa-check"></i> Siren & alert configuration</li>
+                                        <li><i class="fa fa-check"></i> Integration with CCTV</li>
+                                        <li><i class="fa fa-check"></i> System testing & setup</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Key Features</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Real-time alerts</li>
+                                        <li><i class="fa fa-check"></i> SMS & app notifications</li>
+                                        <li><i class="fa fa-check"></i> High sensitivity sensors</li>
+                                        <li><i class="fa fa-check"></i> Wireless options available</li>
+                                        <li><i class="fa fa-check"></i> 24/7 security monitoring</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/9604768442?text=I want Intruder Alarm System"
+                           class="btn btn-site-cta mt-3 w-100">
+                            <i class="fab fa-whatsapp me-1"></i> Get Quote
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-parking-service" tabindex="-1">
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+
+                    <!-- Header -->
+                    <div class="modal-header prod-modal-header">
+                        <div>
+                            <h5 class="modal-title fw-bold">Parking & LPR Cameras</h5>
+                            <p class="text-muted small mb-0">
+                                Smart parking management and automatic number plate recognition systems.
+                            </p>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Body -->
+                    <div class="modal-body p-4">
+                        <div class="row gy-4">
+
+                            <!-- Left -->
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Our Services</h6>
+
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> LPR camera installation</li>
+                                        <li><i class="fa fa-check"></i> Entry & exit monitoring setup</li>
+                                        <li><i class="fa fa-check"></i> Parking surveillance design</li>
+                                        <li><i class="fa fa-check"></i> Software integration & setup</li>
+                                        <li><i class="fa fa-check"></i> Access control integration</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Right -->
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Key Features</h6>
+
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> Automatic number plate recognition</li>
+                                        <li><i class="fa fa-check"></i> High-speed vehicle detection</li>
+                                        <li><i class="fa fa-check"></i> Day & night performance</li>
+                                        <li><i class="fa fa-check"></i> Secure data storage</li>
+                                        <li><i class="fa fa-check"></i> Real-time monitoring & reports</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <a href="https://wa.me/9604768442?text=I want Parking & LPR Camera System"
+                           class="btn btn-site-cta mt-3 w-100">
+                            <i class="fab fa-whatsapp me-1"></i> Get Quote
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-wireless-service" tabindex="-1">
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+
+                    <div class="modal-header prod-modal-header">
+                        <div>
+                            <h5 class="modal-title fw-bold">Wireless IP Cameras</h5>
+                            <p class="text-muted small mb-0">
+                                Easy-to-install wireless cameras with smart connectivity and control.
+                            </p>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body p-4">
+                        <div class="row gy-4">
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Our Services</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> WiFi camera installation</li>
+                                        <li><i class="fa fa-check"></i> App configuration</li>
+                                        <li><i class="fa fa-check"></i> Cloud storage setup</li>
+                                        <li><i class="fa fa-check"></i> Indoor & outdoor setup</li>
+                                        <li><i class="fa fa-check"></i> Troubleshooting support</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="prod-detail-card">
+                                    <h6 class="prod-detail-title">Key Features</h6>
+                                    <ul class="service-features">
+                                        <li><i class="fa fa-check"></i> No complex wiring</li>
+                                        <li><i class="fa fa-check"></i> HD video quality</li>
+                                        <li><i class="fa fa-check"></i> Motion detection alerts</li>
+                                        <li><i class="fa fa-check"></i> Night vision support</li>
+                                        <li><i class="fa fa-check"></i> Mobile app control</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/9604768442?text=I want Wireless IP Camera"
+                           class="btn btn-site-cta mt-3 w-100">
+                            <i class="fab fa-whatsapp me-1"></i> Get Quote
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="container text-center">
+                <h2 class="cta-title">Not Sure What You Need?</h2>
+                <p class="cta-subtitle">Our experts will visit your site for free, assess your requirements, and recommend the best system within your budget.</p>
+                <a href="contact.html" class="btn btn-light btn-lg cta-btn"><i class="fa fa-phone me-1"></i> Book Free Site Survey</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="footer-brand"><i class="fa fa-camera me-2"></i><span class="brand-highlight">Cam</span>Security</h5>
+                    <p class="footer-about">Your trusted partner for CCTV installation, surveillance systems, and complete security solutions. Protecting homes and businesses since 2024.</p>
+                    <div class="footer-social mt-3">
+                        <a href="https://wa.me/9604768442" target="_blank"><i class="fab fa-whatsapp me-1"></i></a>
+                        <a href="https://www.linkedin.com/company/camsecurity" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/cam_seacurity_system.8442" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="footer-heading">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="footer-heading">Our Services</h6>
+                    <ul class="footer-links">
+                        <li><a href="services.html">CCTV Camera Installation</a></li>
+                        <li><a href="services.html">IP &amp; HD Camera Systems</a></li>
+                        <li><a href="services.html">Video Door Phone</a></li>
+                        <li><a href="services.html">Access Control Systems</a></li>
+                        <li><a href="services.html">AMC &amp; Maintenance</a></li>
+                        <li><a href="services.html">Remote Monitoring</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="footer-heading">Contact Info</h6>
+                    <ul class="footer-contact">
+                        <li><i class="fa fa-map-marker-alt"></i> 33/2 Shivtej Colony, Chintamani Chowk, Pune, Chinchwad 411033</li>
+                        <li><i class="fa fa-phone"></i> +91 7666635963, +91 9604768442</li>
+                        <li><i class="fa fa-envelope"></i> camsecuritiessystem@gmail.com</li>
+                        <li><i class="fa fa-clock"></i> Mon - Sat: 9:00 am to 7:00 pm</li>
+                        <li><i class="fa fa-shield-alt"></i> 24/7 Emergency Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class="mb-0">&copy; <span id="year"></span> CamSecurity. All rights reserved.</p>
+                <a href="privacy.html" class="footer-privacy">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
