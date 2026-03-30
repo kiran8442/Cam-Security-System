@@ -97,6 +97,19 @@ a { text-decoration: none; }
 .site-navbar .navbar-toggler { border-color: rgba(255,255,255,0.3); }
 .site-navbar .navbar-toggler-icon { filter: invert(1); }
 
+/* ===== NAVBAR LOGO ===== */
+.navbar-logo {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+    vertical-align: middle;
+    border-radius: 4px;
+    background: var(--dark-2);        /* match the navbar background */
+    padding: 2px 4px;                 /* small breathing room around the icon */
+    mix-blend-mode: lighten;          /* blends dark logo bg into dark navbar */
+    border: none; /* subtle edge softener */
+}
+
 /* ===== HERO ===== */
 .hero-section {
     position: relative;
@@ -891,4 +904,16 @@ a { text-decoration: none; }
     .prod-cat-body {
         padding: 14px 16px 18px;
     }
+}
+
+.footer-logo {
+    height: 38px;
+    width: auto;
+    object-fit: contain;
+    vertical-align: middle;
+    border-radius: 0;
+    background: var(--dark);          /* match the FOOTER background, not navbar */
+    padding: 2px 4px;
+    mix-blend-mode: lighten;
+    border: none;
 }
