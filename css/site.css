@@ -836,12 +836,14 @@ a { text-decoration: none; }
 }
 .prod-detail-img {
     width: 100%;
-    height: auto;
+    height: 250px;
     border-radius: 8px;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: center;
     background: var(--white);
     border: 1px solid #eee;
     padding: 6px;
+    display: block;
 }
 
 /* ===== PRODUCT SPEC TABLE ===== */
